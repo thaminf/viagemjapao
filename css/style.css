@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/*kyoto*/
+
+.bkyoto{
+    background-color: #677456;
+    width: 100%;
+
+}
+
+.bkyoto nav{
+    color: #F8D9E7;
+}
+.bkyoto article {
+    color: #2D2C2E;
+    float: right;
+    margin-left: 10%;
+    
+    font-family: 'Alexandria';
+    font-size: 1.1em;
+    margin-right: 20%;
+}
+.bkyoto h1{
+    color: #F8D9E7;
+    text-align: right;
+    font-weight: 100%;
+    font-size: 5em;
+    
+    
+
+}
+.bkyoto header{
+    background-color: #F8D9E7;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-left: 70px;
+    top:0;
+
+}
+.bkyoto p{
+  
+  text-align: right;
+  margin-left: 10px;
+
+
+}
+.bkyoto img{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.bkyoto footer{
+    color: #F8D9E7;
+
+}
+/*tokyo*/
+.btokyo{
+    background-color: #507494;
+    width: 100%;
+
+}
+
+.btokyo nav{
+    color: #1C2242;
+}
+.btokyo article {
+    color: #C9C8C4;
+    float: left;
+    margin-left: 10%;
+    
+    font-family: 'Alexandria';
+    font-size: 1.1em;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+.btokyo h1{
+    color: #1C2242;
+    text-align: left;
+    font-weight: 100%;
+    font-size: 5em;
+    margin-left: 15%;
+    
+    
+
+}
+.btokyo header{
+    background-color: #1C2242;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-left: 70px;
+    top:0;
+
+}
+.btokyo p{
+  
+  text-align: left;
+  margin-left: 10%;
+
+
+}
+.btokyo img{
+    margin-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    float: right;
+    margin-right: 20%;
+}
+.btokyo footer{
+    color: #1C2242;
+    float: left;
+
+}
+
+/*HIROSHIMA*/
+.bhiroshima{
+    background-color: #C9C8C4;
+    width: 100%;
+
+}
+
+.bhiroshima nav{
+    color: #BA4347;
+}
+.bhiroshima article {
+    color: #1C2242;
+    float: left;
+    margin-left: 10%;
+    
+    font-family: 'Alexandria';
+    font-size: 1.1em;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.bhiroshima h1{
+    color: #BA4347;;
+    text-align: center;
+    font-weight: 100%;
+    font-size: 5em;
+    margin-right: 10%;
+    margin-right: 10%;
+    font-family: sans-serif;
+ 
+    
+    
+
+}
+.bhiroshima header{
+    background-color: #BA4347;;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.bhiroshima p{
+  
+  text-align: center;
+  
+
+
+
+}
+.bhiroshima img{
+    
+    margin-top: 1%;
+    margin-bottom: 3%;
+    float:left;
+    margin-left: 10%;
+    
+}
+.bhiroshima footer{
+    color: #BA4347;;
+    float: left;
+
+}
