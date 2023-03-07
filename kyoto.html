@@ -7,20 +7,79 @@
     <link rel="stylesheet" href="css/style.css">
     <title>KYOTO</title>
 </head>
-<body class="bkyoto">
+<body class="bdestinos">
     <header>
         <nav>
+            <ul>
+                <li> <a href="index.html"><img src="img/vector.png"></a> </li>
+                <li><a href="#">DESTINOS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
         </nav>
     </header>
+    <h1 class="kyoto">KYOTO</h1>
+    <section>
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          
+          <img src="img/kyoto.jpg" style="width:100%">
+         
+        </div>
+      
+        <div class="mySlides fade">
+         
+          <img src="img/kyoto2.jpg" style="width:100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="img/kyoto3.jpg" style="width:100%">
+            
+        </div>
+        <div class="mySlides fade">
+            
+            <img src="img/kyoto4.jpg" style="width:100%">
+           
+          </div>
+    
+    </section>
 
     <article>
-        <h1>KYOTO</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis</p>
+        
+        
+        <p>Kyoto é uma cidade japonesa que é considerada o coração da cultura tradicional japonesa. Como turista, você pode explorar as muitas maravilhas históricas e culturais da cidade, incluindo seus muitos templos e santuários, como o famoso Kiyomizu-dera e o Fushimi Inari Taisha, conhecido por seus milhares de torii vermelhos.
+            
+        </p>
+        
+        <p>Kyoto também é famosa por seus jardins e palácios imperiais, como o Palácio Imperial de Kyoto e o Jardim Zen do Templo Ryoan-ji. Além disso, a cidade é conhecida por suas tradições culinárias, como o famoso Kaiseki, uma refeição japonesa de vários pratos que é um verdadeiro deleite para os sentidos.</p>
+        <p>Outra atração popular em Kyoto é o bairro de Gion, conhecido como o bairro das gueixas, onde os visitantes podem observar as mulheres vestidas com quimonos tradicionais enquanto caminham pelas ruas de paralelepípedos.</p>
+        <p>Kyoto é uma cidade que mistura tradição e modernidade, com uma cena cultural vibrante que oferece teatros de Kabuki, shows de Geisha e muitos museus e galerias de arte. Em resumo, Kyoto é uma cidade fascinante que oferece uma verdadeira experiência cultural para os turistas que desejam explorar a rica herança cultural do Japão.</p>
     </article>
+  
 
-    <section>
-      <img src="img/kyoto1.jpg">
-    </section>
+  
+  
+
+  <script>
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}</script>
+
+
 <footer><small>&copy; COPYRIGHT - TODOS OS DIREITOS RESERVADOS</small></footer>
 </body>
 </html>
