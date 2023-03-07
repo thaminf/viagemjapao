@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/*home, thami e jenny*/
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+}
+
+body {
+  background-color: #BA4347;
+}
 
 /*kyoto*/
 
