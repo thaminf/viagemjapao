@@ -106,24 +106,20 @@ ul li a img{
 
 /*coisas para fazer*/
 
-.body_coisasparafazer {
-  background-color: #2D2C2E;
-}
-
-.body_coisasparafazer section img {
+/*.body_coisasparafazer section img {
   margin-top: 60px;
   float: left;
   padding: 15px;
   width: 200px;
-}
+}*/
 
-.body_coisasparafazer article {
+/*.body_coisasparafazer article {
   margin-top: 60px;
   float: left;
   width: 670px;
-}
+}*/
 
-.body_coisasparafazer p {
+/*.body_coisasparafazer p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 70;
   font-size: 1.0em;
@@ -133,6 +129,63 @@ ul li a img{
   margin-right: 50px;
   margin-left: 50px;
   color: #C9C8C4;
+}*/
+
+.bcoisas{
+  background-color: #2D2C2E;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 700px;
+  height: 280px;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.content .textBox h2 {
+  color: #BA4347;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content .textBox p {
+  color: #BA4347;
+}
+
+.thumb {
+  position: absolute;
+  left: 48%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.thumb li:hover {
+  transform: translateY(-20px);
+}
+
+.thumb li img {
+  max-width: 360px;
+}
+
+.thumb h2{
+  margin-left: 120px;
 }
 
 
