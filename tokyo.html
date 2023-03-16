@@ -6,24 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>TOKYO</title>
+  
 </head>
-<body class="btokyo">
+<body class="bdestinos">
     <header>
         <nav>
+            <ul>
+                <li> <a href="index.html"><img src="img/vector.png"></a> </li>
+                <li><a href="#">DESTINOS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
         </nav>
     </header>
 
-    <h1>TOKYO</h1>
+    <h1 class="tokyo">TOKYO</h1>
 
     <section>
-      <img src="img/tokyo.jpg">
-    </section>
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        
+        <img src="img/tokyo.jpg" style="width:100%">
+       
+      </div>
+    
+      <div class="mySlides fade">
+       
+        <img src="img/tokyo2.jpg" style="width:100%">
+        
+      </div>
+    
+      <div class="mySlides fade">
+        
+        <img src="img/tokyo3.jpg" style="width:100%">
+          
+      </div>
+      <div class="mySlides fade">
+          
+          <img src="img/tokyo4.jpg" style="width:100%">
+         
+        </div>
+  
+  </section>
 
     <article>
         
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis</p>
-    </article>
+        <p>Tóquio é uma cidade vibrante e movimentada, cheia de maravilhas culturais, culinárias e tecnológicas para os visitantes explorarem. Como turista, você pode começar a sua jornada na capital do Japão visitando pontos turísticos famosos como o Templo de Asakusa, o Palácio Imperial de Tóquio e a Torre de Tóquio.</p>
 
+          <p>Além disso, você pode experimentar a incrível culinária japonesa, incluindo sushi, ramen e takoyaki em diversos restaurantes e barracas de comida de rua. A vida noturna em Tóquio também é famosa, com áreas como Shinjuku, Shibuya e Roppongi oferecendo uma grande variedade de bares e clubes.</p>
+          
+          <p>Tóquio também é uma cidade conhecida por sua tecnologia avançada, o que significa que você pode visitar lojas de eletrônicos e tecnologia de ponta, como a famosa loja de departamentos Yodobashi Camera. Além disso, a cidade é famosa por seus famosos jogos de arcade e máquinas de venda automática em praticamente todas as esquinas.</p>
+          
+          <p>Em resumo, Tóquio é uma cidade que oferece uma combinação única de tradição e modernidade, proporcionando aos turistas uma experiência inesquecível que mistura cultura, culinária e tecnologia.</p>
+    </article>
+    <script>
+      let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }</script>
   
 <footer><small>&copy; COPYRIGHT - TODOS OS DIREITOS RESERVADOS</small></footer>
 </body>

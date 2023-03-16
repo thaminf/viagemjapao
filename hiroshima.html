@@ -5,25 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>HIROSHIMA</title>
 </head>
-<body class="bhiroshima">
+<body class="bdestinos">
     <header>
         <nav>
+            <ul>
+                <li> <a href="index.html"><img src="img/vector.png"></a> </li>
+                <li><a href="#">DESTINOS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
         </nav>
     </header>
 
-    <h1>HIROSHIMA</h1>
-
+    <h1 class="hiroshima">HIROSHIMA</h1>
     <section>
-      <img src="img/hiroshima.jpg">
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          
+          <img src="img/hiroshima.jpg" style="width:100%">
+         
+        </div>
+      
+        <div class="mySlides fade">
+         
+          <img src="img/hiroshima2.jpg" style="width:100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="img/hiroshima3.jpg" style="width:100%">
+            
+        </div>
+        <div class="mySlides fade">
+            
+            <img src="img/hiroshima4.jpg" style="width:100%">
+           
+          </div>
+    
     </section>
 
     <article>
         
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis</p>
-    </article>
+        <p>Hiroshima é uma cidade japonesa conhecida por sua história trágica e comovente, mas também tem muito a oferecer aos turistas que desejam explorar suas maravilhas culturais e naturais. Como turista, você pode visitar o Parque Memorial da Paz de Hiroshima, que homenageia as vítimas da bomba atômica lançada na cidade durante a Segunda Guerra Mundial.</p>
 
+            <p>Além disso, a cidade oferece muitos outros locais históricos e culturais, como o Castelo de Hiroshima e o Santuário de Itsukushima, uma ilha sagrada que abriga o famoso Torii Gate flutuante. A cidade também é famosa por sua culinária única, incluindo o famoso Okonomiyaki, uma espécie de panqueca japonesa.</p>
+            
+           <p>Hiroshima também é uma cidade cercada por uma bela paisagem natural, com a Ilha de Miyajima oferecendo uma experiência incrível de natureza e cultura, com sua vista deslumbrante do Monte Misen e seus templos históricos.</p>
+            
+            <p>Em resumo, Hiroshima é uma cidade que oferece uma mistura de história, cultura, culinária e paisagem natural que é inesquecível para os turistas que a visitam. Além de seu passado trágico, Hiroshima é uma cidade vibrante e acolhedora, que acolhe turistas de todo o mundo.</p>
+    </article>
+    <script>
+        let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }</script>
   
 <footer><small>&copy; COPYRIGHT - TODOS OS DIREITOS RESERVADOS</small></footer>
 </body>
