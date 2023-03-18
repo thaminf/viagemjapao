@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
+
+
 /*nav*/
 header {
   display: flex; 
@@ -19,20 +22,23 @@ nav ul li {
   /*topo, direita, base, esquerda*/ 
   display: inline; 
   align-items: left;
-  font-family: 'Alexandria', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul li a{
-  color: #ffffff;
-  text-transform: none;
+   text-transform: none;
   text-decoration: none;
   font-size: 1.1em;
   text-transform: uppercase;
 }
-
-ul li a img{
+ul li a:hover {
+  color: #BA4347;
+  transition: 0.3s;
+}
+header img{
   float: left;
-  margin-right: 50em;
+  display: block;
+  top: 2em;
 }
 
 /*home*/
@@ -43,7 +49,7 @@ ul li a img{
 }
 
 .h1_home {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 5.0em;
   margin-top: 120px;
@@ -52,7 +58,7 @@ ul li a img{
 }
 
 .p_home {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 70;
   font-size: 1.0em;
   margin-left: 50px;
@@ -72,7 +78,7 @@ ul li a img{
 }
 
 .body_blog p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 70;
   font-size: 1.0em;
   padding: 5px;
@@ -84,7 +90,7 @@ ul li a img{
 }
 
 .body_blog h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-top: 50px;
   margin-left: 50px;
   float: left;
@@ -124,7 +130,7 @@ ul li a img{
 }
 
 .body_coisasparafazer p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 70;
   font-size: 1.0em;
   padding: 5px;
@@ -136,195 +142,6 @@ ul li a img{
 }
 
 
-/*ste destinos*/
-
-.kyoto {
-  color: #F8D9E7;
-  text-align: center;
-  font-weight: 100%;
-  font-size: 5em;
-  
-  font-family: sans-serif;
-  display: flex;
-justify-content: center;
-align-items: center;
-  
-
-}
-
-
-.tokyo {
-  color: #507494;
-  text-align: center;
-  font-weight: 100%;
-  font-size: 5em;
-  
-  font-family: sans-serif;
-  display: flex;
-justify-content: center;
-align-items: center;
-  
-  
-
-}
-
-
-.bdestinos{
-  background-color: #2D2C2E;
-  width: 100%;
-
-}
-
-.bdestinos section {
-
-margin-bottom: 5%;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-.bdestinos article {
-  color: #C9C8C4;
-  float: left;
-  margin-left: 10%;
-  
-  font-family: 'Alexandria';
-  font-size: 1.1em;
-  margin-right: 10%;
-  margin-bottom: 5%;
-  
-}
-.hiroshima {
-  color: #BA4347;;
-  text-align: center;
-  font-weight: 100%;
-  font-size: 5em;
-  
-  font-family: sans-serif;
-  display: flex;
-justify-content: center;
-align-items: center;
-
-  
-  
-
-}
-.bdestinos header{
-  
-  width: 100%;
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
- 
-
-}
-.bdestinos p{
-
-text-align: center;
-color: #C9C8C4;
-
-
-font-family: 'Alexandria';
-font-size: 1.1em;
-
-
-
-}
-.bdestinos section img{
-width: 100%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-  
-  
-}
-.bdestinos footer{
-  color: #BA4347;
-  float: left;
-  margin-top: 2em;
-
-}
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-max-width: 1000px;
-position: relative;
-margin: auto;
-justify-content: center;
-align-items: center;
-
-}
-
-/* Hide the images by default */
-.mySlides {
-display: none;
-}
-
-
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-background-color: rgba(0,0,0,0.8);
-}
-
-
-
-/* Fading animation */
-.fade {
-animation-name: fade;
-animation-duration: 1.5s;
-}
-
-@keyframes fade {
-from {opacity: .4}
-to {opacity: 1}
-}
-@media screen and (max-width: 500px)
-{
-  
-  .bdestinos article {
-      width: 420px;
-      height: 520px;
-      margin:2px;
-      float: left;
-     }
-     .bdestinos section img
-     {width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-} 
-header ul li a img{
-margin-top: -2em;
-margin-bottom: 3em;
-}
-     
-     .bdestinos section
-     {width: 420px;
-      margin-left: 1em; 
-      
-      float: left;}
-     
-     
-     
-     
-     .bdestinos header{ width: 420px;
-      height: 100px;
-      margin:1em;}
-
-      .bdestinos article p{
-          font-size: 0.9em;
-          padding-top: 2px;
-          text-align: center;
-          margin-left: 1em;
-      }
-}
 
 
 /*JENNYFER DESTINO*/
@@ -346,7 +163,7 @@ nav ul li {
   /*topo, direita, base, esquerda*/ 
   display: inline; 
   align-items: center;
-  font-family: 'Alexandria', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul li a{
@@ -485,17 +302,18 @@ ul li a{
 
 .body-contato{
   background-color: #2D2C2E;
+  width: 100%;
 }
   
-nav ul li {
+.body_contato nav ul li {
   padding: 0px 0px 0px 100px;
   /*topo, direita, base, esquerda*/ 
   display: inline; 
   align-items: center;
-  font-family: 'Alexandria', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-ul li a{
+.body_contato ul li a{
   color: white;
   text-transform: none;
   text-decoration: none;
@@ -503,7 +321,7 @@ ul li a{
   text-transform: uppercase;
 }
 
-h1{
+.body_contatoh1{
   color: #C9C8C4;
   font-size: 50px;
 }
@@ -666,187 +484,201 @@ h1{
     float: right;
   }
 
-/*destino*/
+/*ste destinos*/
+.bdestinos{
+  background-color: #ffffff;
+ 
+
+}
 
 .kyoto {
-    color: #F8D9E7;
-    text-align: center;
-    font-weight: 100%;
-    font-size: 5em;
-    
-    font-family: sans-serif;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-    
+  color: #fcd7e8;
+  text-align: center;
+  font-weight: 100%;
+  font-size: 5em;
+  
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 100;
+  
 
 }
 
 
 .tokyo {
-    color: #507494;
-    text-align: center;
-    font-weight: 100%;
-    font-size: 5em;
-    
-    font-family: sans-serif;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-    
-    
+  color: #507494;
+  text-align: center;
+  font-weight: 100%;
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 100;
 
-}
-
-
-.bdestinos{
-    background-color: #2D2C2E;
-    width: 100%;
 
 }
 
 .bdestinos section {
-  
-  margin-bottom: 5%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+margin-bottom: 5%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
 
 }
-.bdestinos article {
-    color: #C9C8C4;
-    float: left;
-    margin-left: 10%;
-    
-    font-family: 'Alexandria';
-    font-size: 1.1em;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    
+.bdestinos article{
+  color: #2D2C2E;
+  float: left;
+  margin-left: 10%;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  
 }
 .hiroshima {
-    color: #BA4347;;
-    text-align: center;
-    font-weight: 100%;
-    font-size: 5em;
-    
-    font-family: sans-serif;
-    display: flex;
-  justify-content: center;
-  align-items: center;
- 
-    
-    
-
-}
-.bdestinos header{
-    
-    width: 100%;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-
-}
-.bdestinos p{
-  
+  color: #BA4347;
   text-align: center;
-  color: #C9C8C4;
+  font-weight: 100%;
+  font-size: 5em;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.bdestinos header {
+display: flex; 
+flex-direction: row;
+justify-content: space-around;
+top: 5em; 
+width: 10%; 
+height: 2%;
+}
+.bdestinos nav{
  
+  justify-content: center;
+align-items: center;
+margin-top: -1%;
+margin-bottom: 5em;
+margin-left: 45%;
+}
+.bdestinos nav ul li{
+
+
+  width: 100%;
+   
+     display: inline; 
+    align-items: right;
+    margin-left: 5%;
+   
+    
+    font-family: 'Raleway', sans-serif;
+  }
   
-  font-family: 'Alexandria';
+
+.bdestinos nav ul li a{
+  color: #BA4347;
+  text-transform: none;
+  text-decoration: none;
   font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  
+  
+}
+.bdestinos ul li a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;
+}
+
+
+.bdestinos p{
+
+text-align: center;
+color: #2D2C2E;
+
+
+font-family: 'Raleway', sans-serif;
+font-size: 1.1em;
 
 
 
 }
 .bdestinos section img{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    
-    
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+  
+  
 }
 .bdestinos footer{
-    color: #BA4347;;
-    float: left;
+  color: #BA4347;
+  float: left;
+  margin-top: 2em;
 
 }
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
+max-width: 1000px;
+position: relative;
+margin: auto;
+justify-content: center;
+align-items: center;
 
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+display: none;
 }
+
+
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+background-color: rgba(0,0,0,0.8);
 }
+
+
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {opacity: .4}
+to {opacity: 1}
 }
 @media screen and (max-width: 500px)
- {
+{
+  .bdestinos nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  } 
+  .bdestinos nav{
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .bdestinos nav li a {
+    display: block;
     
-    .bdestinos article {
-        width: 420px;
-        height: 520px;
-        margin:2px;
-        float: left;
-       }
-       .bdestino section img
-       {width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-} 
-header ul li a img{
-  margin-top: -2em;
-  margin-bottom: 3em;
-}
-       
-       .bdestinos section
-       {width: 420px;
-        margin-left: 1em; 
-        
-        float: left;}
-       
-       
-       
-       
-       .bdestinos header{ width: 420px;
-        height: 100px;
-        margin:1em;}
-
-        .bdestinos article p{
-            font-size: 0.9em;
-            padding-top: 2px;
-            text-align: center;
-            margin-left: 1em;
-        }
+  }
+  .bdestinos h1{margin-top: -2%;}
+  
 }
