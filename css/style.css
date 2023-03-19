@@ -40,6 +40,48 @@ header img{
   display: block;
   top: 2em;
 }
+.b_destino nav ul li a{
+  color: #BA4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  
+  font-weight: 400;
+  
+  
+}
+.b_destino a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;}
+
+  .b_destino header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .b_destino nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .b_destino nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
 
 /*home*/
 
@@ -72,82 +114,236 @@ header img{
 }
 
 /*blog*/
-
+.body_blog header nav{
+  color: #2D2C2E;
+}
 .body_blog {
-  background-color: #2D2C2E;
+  background-color: #ffffff;
 }
 
-.body_blog p {
+.body_blog article p {
   font-family: 'Raleway', sans-serif;
-  font-weight: 70;
+  font-weight: 400;
   font-size: 1.0em;
   padding: 5px;
   float: left;
-  margin-top: 80px;
+  margin-top: 3px;
   margin-right: 50px;
   margin-left: 50px;
-  color: #C9C8C4;
+  color: #2D2C2E
 }
 
 .body_blog h1 {
   font-family: 'Raleway', sans-serif;
-  margin-top: 50px;
-  margin-left: 50px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: left;
   width: 670px;
+  color:#507494;
+  font-size: 5em;
 }
 
 .body_blog section img {
-  margin-top: 60px;
+
   float: left;
   padding: 25px;
   width: 300px;
 }
 
+
 .body_blog article {
-  margin-top: 60px;
+  margin-top: 5px;
   float: left;
-  width: 670px;
+  width: 600px;
+  height: 700px;
+  margin-right: 1em;
+ 
 }
+.body_blog h2 a{
+  font-family: 'Raleway', sans-serif;
+  
+  margin-bottom: -3em;
+  color: #BA4347;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+font-weight: 100;
+  margin-left: 1em;
+
+}
+.body_blog nav ul li a{
+  color: #BA4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  
+  font-weight: 400;
+  
+  
+}
+.body_blog a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;}
+
+  .body_blog header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .body_blog nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .body_blog nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
+      .body_blog article h3{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        
+        color:#677456;
+        font-family: 'Raleway', sans-serif;
+        padding: 5px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-left: 50px;
+      }
+      .body_blog section{
+        width: 600px;
+        float: left;
+        margin-left: 60px;
+        justify-content: center;
+  align-items: center;
+      }
 
 /*coisas para fazer*/
 
 .body_coisasparafazer {
-  background-color: #2D2C2E;
+  background-color: #ffffff;
 }
 
-.body_coisasparafazer section img {
-  margin-top: 60px;
-  float: left;
-  padding: 15px;
+.body_coisasparafazer section{
   width: 200px;
+  float:left;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 3em;
 }
 
 .body_coisasparafazer article {
-  margin-top: 60px;
+  margin-top: 20px;
   float: left;
   width: 670px;
 }
-
-.body_coisasparafazer p {
+.body_coisasparafazer h1{
+  font-family: 'Raleway', sans-serif; ;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #507494;
+  font-weight: 100;
+  font-size: 3.5em;
+}
+.body_coisasparafazer article p {
   font-family: 'Raleway', sans-serif;
-  font-weight: 70;
+  font-weight: 400;
   font-size: 1.0em;
   padding: 5px;
-  float: left;
-  margin-top: 80px;
   margin-right: 50px;
   margin-left: 50px;
-  color: #C9C8C4;
+  color: #2D2C2E;
 }
+.body_coisasparafazer h2{
+  font-family: 'Raleway', sans-serif;
+  color: #507494;
+  font-weight: 400;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_coisasparafazer h3{
+  font-family: 'Raleway', sans-serif;
+  color: #677456;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-decoration:dotted;
+ 
+}
+.body_coisasparafazer nav ul li a{
+  color: #BA4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  
+  font-weight: 400;
+  
+  
+}
+.body_coisasparafazer a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;}
 
+  .body_coisasparafazer header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .body_coisasparafazer nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .body_coisasparafazer nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
+      
 
 
 
 /*JENNYFER DESTINO*/
 
-body {
-  background-image: url("img/bgnight1.png");
+.b_destino {
+  background-image: url(../img/bgnight1.png);
+
+  background-color: #cccccc;
 }
 
 .header_destino{
@@ -177,13 +373,16 @@ ul li a{
 .h1-destino{
   color: white;
   padding: 0px 10px 0px 800px;
-  font-size: 40px;
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 }
   
 .texto-destino{
   color: white;
   padding: 0px 20px 0px 800px;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -208,6 +407,8 @@ ul li a{
   overflow: hidden;
   margin-right: 15px;
   margin-top: 45px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 }
 
 .container:hover .box {
@@ -620,6 +821,14 @@ align-items: center;
   
   
 }
+.bdestinos article p a {
+  color: #BA4347;
+
+}
+.bdestinos article p a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;
+}
 .bdestinos footer{
   color: #BA4347;
   float: left;
@@ -638,7 +847,18 @@ justify-content: center;
 align-items: center;
 
 }
-
+.slideshowcontainer{
+  max-width: 1000px;
+position: relative;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+.slideshowcontainer2{
+  max-width: 1000px;
+position: relative;
+margin-left: 30px;
+}
 /* Hide the images by default */
 .mySlides {
 display: none;
@@ -681,4 +901,54 @@ to {opacity: 1}
   }
   .bdestinos h1{margin-top: -2%;}
   
+
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
+ nav{
+  margin-left: 0;
+  margin-bottom: 0;
+}
+ nav li a {
+  display: block;
+  
+}
+ header{
+  margin-bottom: 3em;
+ }
+.body_blog article{
+  width: 420px;
+
+  float: left;
+
+}
+.body_blog h1{
+  text-align: left;
+  font-size: 3em;
+  margin-left: -3em;
+
+}
+
+.body_blog article p{
+  font-size: 0.1;
+}
+
+.body_blog article p{
+  font-size: small;
+  padding-top: 1px;
+  text-align: center;
+}
+
+.body_blog section img{
+  width: 1em;
+  height: 1em;
+  visibility: hidden;
+}
+.body_blog section{
+  width: 420px;
+  float: left;
+}
 }
