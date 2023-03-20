@@ -83,7 +83,11 @@ header img{
         
         font-family: 'Raleway', sans-serif;
       }
-
+footer{
+  font-family: 'Raleway', sans-serif;
+  color: #BA4347;
+  font-weight: 100;
+}
 /*home*/
 
 .bhome {
@@ -108,6 +112,7 @@ header img{
   margin-right: 50px;
   padding: 5px;
   color: #C9C8C4;
+  font-weight: 400;
 }
 
 .article_home{
@@ -515,6 +520,9 @@ ul li a{
   margin-left: 5em;
  
 }
+.content-items a:hover {
+  
+  color: #fff;}
 
 .body-contato header{
   margin-bottom: 5em;
