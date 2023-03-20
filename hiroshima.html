@@ -5,25 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>HIROSHIMA</title>
 </head>
-<body class="bhiroshima">
-    <header>
-        <nav>
-        </nav>
-    </header>
+<body class="bdestinos">
+  <header>
+   <a href="index.html"><img src="img/vector.png"></a>
+  </header>
+  <nav>
+    <ul>
+      
+      <li><a href="destino.html">DESTINOS</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+</nav>
 
-    <h1>HIROSHIMA</h1>
-
+    <h1 class="hiroshima">HIROSHIMA</h1>
     <section>
-      <img src="img/hiroshima.jpg">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          
+          <img src="img/hiroshima.jpg" style="width:100%">
+         
+        </div>
+      
+        <div class="mySlides fade">
+         
+          <img src="img/hiroshima2.jpg" style="width:100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="img/hiroshima3.jpg" style="width:100%">
+            
+        </div>
+        <div class="mySlides fade">
+            
+            <img src="img/hiroshima4.jpg" style="width:100%">
+           
+          </div>
+        </div>
     </section>
 
     <article>
         
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis culpa sequi, nostrum omnis architecto beatae nobis nisi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum officiis autem unde mollitia incidunt quidem ipsam itaque, debitis expedita atque quasi veritatis</p>
-    </article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisilit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing eat asperiores! Id tempora blanditiis pariatur dolore animi sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
+      
+      <p>Lorem ipsum dolor sit amet consectetur ades! Id tempora blanditiis pariatur dolore animi sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adium error aliquam, quaerat asperiores! Id tempora blanditiis pariatur dolore animi sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
+            <p><a href="kyoto.html">KYOTO</a>, <a href="tokyo.html">TOKYO</a></p>
+    </article>
+    <script>
+        let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }</script>
   
 <footer><small>&copy; COPYRIGHT - TODOS OS DIREITOS RESERVADOS</small></footer>
 </body>
