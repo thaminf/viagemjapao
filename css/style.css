@@ -14,6 +14,7 @@ header {
   flex-direction row organiza os itens em forma de linha da esquerda para direita
   justify-content define o alinhamento dos itens, o space-around significa >espaço ao redor<*/
   height: 70px;
+  
 }
 
 nav ul li {
@@ -505,50 +506,53 @@ ul li a{
   background-color: #2D2C2E;
   width: 100%;
 }
-  
-.body_contato nav ul li {
-  padding: 0px 0px 0px 100px;
-  /*topo, direita, base, esquerda*/ 
-  display: inline; 
+.content-items img{
+  margin-top: -8%;
+ /*width: 922px;
+  height: 223px;*/
+  justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  margin-left: 5em;
+ 
 }
 
-.body_contato ul li a{
-  color: white;
-  text-transform: none;
-  text-decoration: none;
-  font-size: 1.1em;
-  text-transform: uppercase;
+.body-contato header{
+  margin-bottom: 5em;
 }
-
-.body_contatoh1{
+.body-contato article{ 
+  margin-top: 1.5em;
+  float: left;
+  margin-right: -2em;
+}
+.body-contato aside {
+  margin-top: 5em;
+  float: left;
+}
+.body-contato h1{
+ font-family: 'Raleway', sans-serif;
   color: #C9C8C4;
   font-size: 50px;
-}
 
+}
 .caixa__login {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 65%;
+  left: 55%;
   width: 800px;
   padding: 40px;
   transform: translate(-70%, -50%);
   box-sizing: border-box;  
   border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
 }
   
-.caixa__login h2 {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-}
+
   
 .caixa__login .caixa__login-input {
   position: relative;
 }
-  
+  /*texto do botão*/
+
 .caixa__login .caixa__login-input input {
   width: 100%;
   padding: 10px 0;
@@ -574,16 +578,16 @@ ul li a{
   .caixa__login .caixa__login-input input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #8b80f9;
-    font-size: 12px;
+    color: #ffffff;
+    font-size: 17px;
   }
   
   .caixa__login form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #8b80f9;
-    font-size: 16px;
+    color: #dbd9f5;
+    font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -592,12 +596,14 @@ ul li a{
     letter-spacing: 4px;
   }
   
+  /*cores do botão*/
+
   .caixa__login a:hover {
-    background: #8b80f9;
+    background: #BA4347;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #8b80f9, 0 0 25px #8b80f9, 0 0 50px #8b80f9,
-      0 0 100px #8b80f9;
+    box-shadow: 0 0 5px #f7f3f3, 0 0 25px #d17073, 0 0 50px #dcd5d5,
+      0 0 100px #507494;
   }
   
   .caixa__login a span {
@@ -622,7 +628,7 @@ ul li a{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #8b80f9);
+    background: linear-gradient(180deg, transparent, #BA4347);
     animation: animacaoBotao2 1s linear infinite;
     animation-delay: 0.25s;
   }
@@ -662,10 +668,11 @@ ul li a{
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #8b80f9);
+    background: linear-gradient(360deg, transparent, #BA4347);
     animation: animacaoBotao4 1s linear infinite;
     animation-delay: 0.75s;
   }
+  /*@keyframes é utilizado para fazer animações no css*/
   
   @keyframes animacaoBotao4 {
     0% {
@@ -684,6 +691,35 @@ ul li a{
     margin-top: 80px;
     float: right;
   }
+  .lista{
+    position: absolute;
+    top: 33%;
+    right: 50px;
+    /*deixar do lado direito*/
+
+    transform: translateY(5%);
+    transform: translateX(-20%);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .lista li{
+    list-style: none;
+  
+  }
+  
+  .lista li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+  }
+
+
+
 
 /*ste destinos*/
 .bdestinos{
@@ -950,5 +986,11 @@ to {opacity: 1}
 .body_blog section{
   width: 420px;
   float: left;
+}
+.bhome header{
+  margin-bottom: 7em;
+}
+.bhome header img{
+  width: 70%;
 }
 }
