@@ -518,12 +518,27 @@ ul li a{
 .body-contato section{
   width: 100%;
 }
+<<<<<<< HEAD
 .body-contato section img{
   justify-content: center;
   align-items: center;
   margin-left: 100px;
+=======
+.content-items img{
+  margin-top: -8%;
+ /*width: 922px;
+  height: 223px;*/
+  justify-content: center;
+  align-items: center;
+  margin-left: 5em;
+ 
+>>>>>>> origin
 }
+.content-items a:hover {
+  
+  color: #fff;}
 
+<<<<<<< HEAD
 
 main section{
 padding-left: 200px;
@@ -595,6 +610,25 @@ padding-left: 200px;
   color: #507494;
   font-size: 50px;
 
+=======
+.body-contato header{
+  margin-bottom: 5em;
+}
+.body-contato article{ 
+  margin-top: 1.5em;
+  float: left;
+  margin-right: -2em;
+}
+.body-contato aside {
+  margin-top: 5em;
+  float: left;
+}
+.body-contato h1{
+ font-family: 'Raleway', sans-serif;
+  color: #C9C8C4;
+  font-size: 50px;
+
+>>>>>>> origin
 }
 .caixa__login {
  /* border: 1px solid #000;*/
@@ -608,7 +642,10 @@ padding-left: 200px;
   box-sizing: border-box;  
   border-radius: 10px;
   font-family: 'Raleway', sans-serif;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin
 }
   
 
@@ -651,7 +688,11 @@ padding-left: 200px;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
+<<<<<<< HEAD
     color: #507494;
+=======
+    color: #dbd9f5;
+>>>>>>> origin
     font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
@@ -1057,6 +1098,9 @@ to {opacity: 1}
 }
 .bhome header img{
   width: 70%;
+<<<<<<< HEAD
   
+=======
+>>>>>>> origin
 }
 }
