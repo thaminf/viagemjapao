@@ -14,6 +14,7 @@ header {
   flex-direction row organiza os itens em forma de linha da esquerda para direita
   justify-content define o alinhamento dos itens, o space-around significa >espaço ao redor<*/
   height: 70px;
+  
 }
 
 nav ul li {
@@ -40,7 +41,53 @@ header img{
   display: block;
   top: 2em;
 }
+.b_destino nav ul li a{
+  color: #BA4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  
+  font-weight: 400;
+  
+  
+}
+.b_destino a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;}
 
+  .b_destino header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .b_destino nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .b_destino nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
+footer{
+  font-family: 'Raleway', sans-serif;
+  color: #BA4347;
+  font-weight: 100;
+}
 /*home*/
 
 .bhome {
@@ -65,6 +112,7 @@ header img{
   margin-right: 50px;
   padding: 5px;
   color: #C9C8C4;
+  font-weight: 400;
 }
 
 .article_home{
@@ -72,83 +120,236 @@ header img{
 }
 
 /*blog*/
-
+.body_blog header nav{
+  color: #2D2C2E;
+}
 .body_blog {
-  background-color: #2D2C2E;
+  background-color: #ffffff;
 }
 
-.body_blog p {
+.body_blog article p {
   font-family: 'Raleway', sans-serif;
-  font-weight: 70;
+  font-weight: 400;
   font-size: 1.0em;
   padding: 5px;
   float: left;
-  margin-top: 80px;
+  margin-top: 3px;
   margin-right: 50px;
   margin-left: 50px;
-  color: #C9C8C4;
+  color: #2D2C2E
 }
 
 .body_blog h1 {
   font-family: 'Raleway', sans-serif;
-  margin-top: 50px;
-  margin-left: 50px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: left;
   width: 670px;
+  color:#507494;
+  font-size: 5em;
 }
 
 .body_blog section img {
-  margin-top: 60px;
+
   float: left;
   padding: 25px;
   width: 300px;
 }
 
+
 .body_blog article {
-  margin-top: 60px;
+  margin-top: 5px;
   float: left;
-  width: 670px;
+  width: 600px;
+  height: 700px;
+  margin-right: 1em;
+ 
 }
+.body_blog h2 a{
+  font-family: 'Raleway', sans-serif;
+  
+  margin-bottom: -3em;
+  color: #BA4347;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+font-weight: 100;
+  margin-left: 1em;
+
+}
+.body_blog nav ul li a{
+  color: #BA4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  
+  font-weight: 400;
+  
+  
+}
+.body_blog a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;}
+
+  .body_blog header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .body_blog nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .body_blog nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
+      .body_blog article h3{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        
+        color:#677456;
+        font-family: 'Raleway', sans-serif;
+        padding: 5px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-left: 50px;
+      }
+      .body_blog section{
+        width: 600px;
+        float: left;
+        margin-left: 60px;
+        justify-content: center;
+  align-items: center;
+      }
 
 /*coisas para fazer*/
 
 .body_coisasparafazer {
-  background-color: #2D2C2E;
+  background-color: #ffffff;
 }
 
-.body_coisasparafazer section img {
-  margin-top: 60px;
-  float: left;
-  padding: 15px;
+.body_coisasparafazer section{
   width: 200px;
+  float:left;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 3em;
 }
 
 .body_coisasparafazer article {
-  margin-top: 60px;
+  margin-top: 20px;
   float: left;
   width: 670px;
 }
-
-.body_coisasparafazer p {
+.body_coisasparafazer h1{
+  font-family: 'Raleway', sans-serif; ;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #507494;
+  font-weight: 100;
+  font-size: 3.5em;
+}
+.body_coisasparafazer article p {
   font-family: 'Raleway', sans-serif;
-  font-weight: 70;
+  font-weight: 400;
   font-size: 1.0em;
   padding: 5px;
-  float: left;
-  margin-top: 80px;
   margin-right: 50px;
   margin-left: 50px;
-  color: #C9C8C4;
+  color: #2D2C2E;
 }
+.body_coisasparafazer h2{
+  font-family: 'Raleway', sans-serif;
+  color: #507494;
+  font-weight: 400;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_coisasparafazer h3{
+  font-family: 'Raleway', sans-serif;
+  color: #677456;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-decoration:dotted;
+ 
+}
+.body_coisasparafazer nav ul li a{
+  color: #BA4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  
+  font-weight: 400;
+  
+  
+}
+.body_coisasparafazer a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;}
 
+  .body_coisasparafazer header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .body_coisasparafazer nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .body_coisasparafazer nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
+      
 
 
 
 /*JENNYFER DESTINO*/
 
-.body-destino {
-  background: url(../img/bgnight1.png) no-repeat;
-  background-size: cover;
+.b_destino {
+  background-image: url(../img/bgnight1.png);
+
+  background-color: #cccccc;
 }
 
 .header_destino{
@@ -165,7 +366,6 @@ nav ul li {
   display: inline; 
   align-items: center;
   font-family: 'Raleway', sans-serif;
-
 }
 
 ul li a{
@@ -179,13 +379,16 @@ ul li a{
 .h1-destino{
   color: white;
   padding: 0px 10px 0px 800px;
-  font-size: 40px;
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 }
   
 .texto-destino{
   color: white;
   padding: 0px 20px 0px 800px;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -210,6 +413,8 @@ ul li a{
   overflow: hidden;
   margin-right: 15px;
   margin-top: 45px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 }
 
 .container:hover .box {
@@ -303,47 +508,97 @@ ul li a{
 /*JENNYFER CONTAT0*/
 
 .body-contato{
-  background-color: #2D2C2E;
+  background: linear-gradient(
+    to left, #507494,#dbd9f5);
+
+  width: 100%;
+
+}
+
+.body-contato section{
   width: 100%;
 }
+.body-contato section img{
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+
+main section{
+padding-left: 200px;
+
+
+
+}
+
 .content-items img{
   margin-top: -8%;
- width: 1350px;
-  height: 250px;
-  
-  background-size: cover;
-}
-
-.header_contato{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
-
-nav ul li {
-  padding: 10px 20px 0px 80px;
-  /*topo, direita, base, esquerda*/ 
-  display: inline; 
+ /*width: 922px;
+  height: 223px;*/
+  justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
-
+  margin-left: 5em;
+ 
 }
-
-
-
-
-
-
-
-h1{
- font-family: 'Raleway', sans-serif;
+.body-contato a:hover {
   color: #C9C8C4;
+  transition: 0.3s;}
+
+  .body-contato header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .body-contato nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .body-contato nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
+
+
+
+
+
+
+
+
+.body-contato article{ 
+  margin-top:3.5em;
+  float: left;
+  margin-right: -2em;
+}
+.body-contato aside {
+  margin-top: 5em;
+  float: left;
+}
+.body-contato h1{
+ font-family: 'Raleway', sans-serif;
+  color: #507494;
   font-size: 50px;
 
 }
 .caixa__login {
+ /* border: 1px solid #000;*/
+ background: rgba(255,255,255,0.1);
   position: absolute;
   top: 65%;
   left: 55%;
@@ -352,6 +607,8 @@ h1{
   transform: translate(-70%, -50%);
   box-sizing: border-box;  
   border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+
 }
   
 
@@ -386,7 +643,7 @@ h1{
   .caixa__login .caixa__login-input input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #8b80f9;
+    color: #ffffff;
     font-size: 17px;
   }
   
@@ -394,7 +651,7 @@ h1{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #dbd9f5;
+    color: #507494;
     font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
@@ -411,7 +668,7 @@ h1{
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px #f7f3f3, 0 0 25px #d17073, 0 0 50px #dcd5d5,
-      0 0 100px #8b80f9;
+      0 0 100px #507494;
   }
   
   .caixa__login a span {
@@ -526,14 +783,6 @@ h1{
     transform: scale(0.6);
   }
 
- footer{
-  top: 100%;
- }
-
-
-
-
-
 
 
 
@@ -596,36 +845,9 @@ align-items: center;
   
 }
 .hiroshima {
-
-    color: #BA4347;
-    text-align: center;
-    font-weight: 100%;
-    font-size: 5em;
-    
-    font-family: sans-serif;
-    display: flex;
-  justify-content: center;
-  align-items: center;
- 
-    
-    
-
-}
-.bdestinos header{
-    
-    width: 100%;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-
-}
-.bdestinos p{
-  
-
   color: #BA4347;
-
+  text-align: center;
+  font-weight: 100%;
   font-size: 5em;
   font-weight: 100;
   font-family: 'Raleway', sans-serif;
@@ -700,6 +922,14 @@ align-items: center;
   
   
 }
+.bdestinos article p a {
+  color: #BA4347;
+
+}
+.bdestinos article p a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;
+}
 .bdestinos footer{
   color: #BA4347;
   float: left;
@@ -718,7 +948,18 @@ justify-content: center;
 align-items: center;
 
 }
-
+.slideshowcontainer{
+  max-width: 1000px;
+position: relative;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+.slideshowcontainer2{
+  max-width: 1000px;
+position: relative;
+margin-left: 30px;
+}
 /* Hide the images by default */
 .mySlides {
 display: none;
@@ -756,48 +997,65 @@ to {opacity: 1}
     margin-bottom: 0;
   }
   .bdestinos nav li a {
-    display: block;}
-
+    display: block;
     
-    .bdestinos article {
-        width: 420px;
-        height: 520px;
-        margin:2px;
-        float: left;
-       }
-       .bdestino section img {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  }
+  .bdestinos h1{margin-top: -2%;}
+  
+
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
 } 
-
-  header ul li a img{
-  margin-top: -2em;
-  margin-bottom: 3em;
+ nav{
+  margin-left: 0;
+  margin-bottom: 0;
 }
-       
-       .bdestinos section{
-        width: 420px;
-        margin-left: 1em; 
-        float: left;
-      }         
-       
-       .bdestinos header{ 
-        width: 420px;
-        height: 100px;
-        margin:1em;
-      }
+ nav li a {
+  display: block;
+  
+}
+ header{
+  margin-bottom: 3em;
+ }
+.body_blog article{
+  width: 420px;
 
-        .bdestinos article p{
-            font-size: 0.9em;
-            padding-top: 2px;
-            text-align: center;
-            margin-left: 1em;
-        }
+  float: left;
 
-  .bdestinos h1{
-    margin-top: -2%;
+}
+.body_blog h1{
+  text-align: left;
+  font-size: 3em;
+  margin-left: -3em;
 
+}
+
+.body_blog article p{
+  font-size: 0.1;
+}
+
+.body_blog article p{
+  font-size: small;
+  padding-top: 1px;
+  text-align: center;
+}
+
+.body_blog section img{
+  width: 1em;
+  height: 1em;
+  visibility: hidden;
+}
+.body_blog section{
+  width: 420px;
+  float: left;
+}
+.bhome header{
+  margin-bottom: 7em;
+}
+.bhome header img{
+  width: 70%;
+}
 }
