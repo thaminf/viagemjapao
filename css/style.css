@@ -114,11 +114,19 @@ footer{
   color: #C9C8C4;
   font-weight: 400;
 }
-
 .article_home{
-  margin-bottom: 150px;
+  margin-bottom: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  
+ 
+  
+  
 }
-
+.article_home p{
+  font-family: 'Raleway', sans-serif;
+ font-weight: 70;
+  color: #ffffff;
+}
 /*blog*/
 .body_blog header nav{
   color: #2D2C2E;
@@ -506,19 +514,53 @@ ul li a{
 }
 
 /*JENNYFER CONTAT0*/
+.body-contato a:hover {
+  color: #C9C8C4;
+  transition: 0.3s;}
+
+  .body-contato header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    top: 5em; 
+    width: 10%; 
+    height: 2%;
+    }
+    .body-contato nav{
+     
+      justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    margin-bottom: 5em;
+    margin-left: 45%;
+    }
+    .body-contato nav ul li{
+    
+    
+      width: 100%;
+       
+         display: inline; 
+        align-items: right;
+        margin-left: 5%;
+       
+        
+        font-family: 'Raleway', sans-serif;
+      }
 
 .body-contato{
   background-color: #2D2C2E;
   width: 100%;
 }
-.content-items img{
-  margin-top: -8%;
- /*width: 922px;
-  height: 223px;*/
+.body-contato section{
+  width: 100%;
+  margin-bottom: 3em;
+}
+.body-contato section img{
   justify-content: center;
   align-items: center;
-  margin-left: 5em;
- 
+  margin-left: 350px;
+
+
 }
 .content-items a:hover {
   
@@ -528,7 +570,7 @@ ul li a{
   margin-bottom: 5em;
 }
 .body-contato article{ 
-  margin-top: 1.5em;
+  margin-top: 5.5em;
   float: left;
   margin-right: -2em;
 }
