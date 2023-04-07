@@ -1,0 +1,1109 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap");
+
+/*nav*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 2em; /* posiciona o nav no topo da pagina*/
+  width: 100%;
+  /*propriedades de flexbox utilizadas para que as demais propriedades reproduzam o resultado esperado
+  flex-direction row organiza os itens em forma de linha da esquerda para direita
+  justify-content define o alinhamento dos itens, o space-around significa >espaço ao redor<*/
+  height: 70px;
+}
+
+nav ul li {
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+  /*topo, direita, base, esquerda*/
+  display: inline;
+  align-items: left;
+  font-family: "Raleway", sans-serif;
+}
+
+ul li a {
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+ul li a:hover {
+  color: #ba4347;
+  transition: 0.3s;
+}
+header img {
+  float: left;
+  display: block;
+  top: 2em;
+}
+.b_destino nav ul li a {
+  color: #ba4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+
+  font-weight: 400;
+}
+.b_destino a:hover {
+  color: #c9c8c4;
+  transition: 0.3s;
+}
+
+.b_destino header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 5em;
+  width: 10%;
+  height: 2%;
+}
+.b_destino nav {
+  justify-content: center;
+  align-items: center;
+  margin-top: -1%;
+  margin-bottom: 5em;
+  margin-left: 45%;
+}
+.b_destino nav ul li {
+  width: 100%;
+
+  display: inline;
+  align-items: right;
+  margin-left: 5%;
+
+  font-family: "Raleway", sans-serif;
+}
+footer {
+  font-family: "Raleway", sans-serif;
+  color: #ba4347;
+  font-weight: 100;
+}
+/*home*/
+
+.bhome {
+  background: url(../img/backgroundhome.jpg) no-repeat;
+  background-size: cover;
+}
+
+.h1_home {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 5em;
+  margin-top: 120px;
+  margin-left: 50px;
+  color: #c9c8c4;
+}
+
+.p_home {
+  font-family: "Raleway", sans-serif;
+  font-weight: 70;
+  font-size: 1em;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 5px;
+  color: #c9c8c4;
+  font-weight: 400;
+}
+.article_home {
+  margin-bottom: 300px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.article_home p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 70;
+  color: #ffffff;
+}
+/*blog*/
+
+.body_blog header nav {
+  color: #fff;
+}
+.body_blog {
+  background-color: #2d2c2e;
+}
+
+.body_blog article p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 5px;
+  float: left;
+  margin-top: 3px;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.body_blog h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 670px;
+  color: #fff;
+  font-size: 5em;
+}
+
+.body_blog section img {
+  float: left;
+  padding: 25px;
+  width: 300px;
+}
+
+.body_blog article {
+  margin-top: 5px;
+  float: left;
+  width: 600px;
+  height: 700px;
+  margin-right: 1em;
+}
+.body_blog h2 a {
+  font-family: "Raleway", sans-serif;
+
+  margin-bottom: -3em;
+  color: #507494;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 100;
+  margin-left: 1em;
+}
+
+.body_blog h3 a {
+  font-family: "Raleway", sans-serif;
+
+  margin-bottom: -3em;
+  color: #fff;
+
+  text-transform: none;
+  text-decoration: none;
+  
+  font-weight: 100;
+  margin-left: 1em;
+}
+
+.body_blog nav ul li a {
+  color: #fff;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+
+  font-weight: 400;
+}
+.body_blog a:hover {
+  color: #c9c8c4;
+  transition: 0.3s;
+}
+
+.body_blog header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 5em;
+  width: 10%;
+  height: 2%;
+}
+.body_blog nav {
+  justify-content: center;
+  align-items: center;
+  margin-top: -1%;
+  margin-bottom: 5em;
+  margin-left: 45%;
+}
+.body_blog nav ul li {
+  width: 100%;
+
+  display: inline;
+  align-items: right;
+  margin-left: 5%;
+
+  font-family: "Raleway", sans-serif;
+}
+.body_blog article h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+
+  color: #507494;
+  font-family: "Raleway", sans-serif;
+  padding: 5px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.body_blog section {
+  width: 600px;
+  float: left;
+  margin-left: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*aqui começa a animação do texto*/
+
+.animated-text {
+  
+  display: inline-block;
+  animation: slideIn 1s ease-in-out forwards;
+  font-family: "Raleway", sans-serif;
+  font-size: 300%;
+
+  background: linear-gradient(to right, #fff, #507494);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*coisas para fazer*/
+
+.body_coisasparafazer {
+  background-color: #2d2c2e;
+}
+
+.body_coisasparafazer section {
+  width: 200px;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 3em;
+}
+
+.body_coisasparafazer article {
+  margin-top: 20px;
+  float: left;
+  width: 670px;
+}
+.body_coisasparafazer h1 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 100;
+  font-size: 3.5em;
+}
+.body_coisasparafazer article p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: #fff;
+}
+.body_coisasparafazer h2 {
+  font-family: "Raleway", sans-serif;
+  color: #507494;
+  font-weight: 400;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_coisasparafazer h3 {
+  font-family: "Raleway", sans-serif;
+  color: #507494;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-decoration: dotted;
+}
+.body_coisasparafazer nav ul li a {
+  color: #ba4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+
+  font-weight: 400;
+}
+.body_coisasparafazer a:hover {
+  color: #c9c8c4;
+  transition: 0.3s;
+}
+
+.body_coisasparafazer header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 5em;
+  width: 10%;
+  height: 2%;
+}
+.body_coisasparafazer nav {
+  justify-content: center;
+  align-items: center;
+  margin-top: -1%;
+  margin-bottom: 5em;
+  margin-left: 45%;
+}
+.body_coisasparafazer nav ul li {
+  width: 100%;
+
+  display: inline;
+  align-items: right;
+  margin-left: 5%;
+
+  font-family: "Raleway", sans-serif;
+}
+
+/*JENNYFER DESTINO*/
+
+.b_destino {
+  background-image: url(../img/bgnight1.png);
+
+  background-color: #cccccc;
+}
+
+.header_destino {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px 20px 0px 80px;
+  /*topo, direita, base, esquerda*/
+  display: inline;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+ul li a {
+  color: white;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+.h1-destino {
+  color: white;
+  padding: 0px 10px 0px 800px;
+  font-size: 5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+
+.texto-destino {
+  color: white;
+  padding: 0px 20px 0px 800px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: auto;
+}
+
+.container .box {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  background: #000;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-top: 45px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+
+.container:hover .box {
+  transform: rotateY(25deg);
+}
+
+.container .box:hover ~ .box {
+  transform: rotateY(-25deg);
+}
+
+.container .box:hover {
+  transform: rotateY(0deg) scale(1.25);
+  z-index: 1;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+.container .box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .box .imgBx:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #f00, #000);
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+
+.container .box:hover .imgBx:before {
+  opacity: 1;
+}
+
+.container .box .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.container .box .content h2 {
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 200px;
+  transform: translateY(200px);
+  transition-delay: 0.3s;
+}
+
+.container .box:hover .content h2 {
+  transform: translateY(0px);
+}
+
+.container .box .content a {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 32px;
+  transform: translateY(200px);
+  transition-delay: 0.4s;
+}
+
+.container .box:hover .content a {
+  transform: translateY(0px);
+}
+
+/*JENNYFER CONTAT0*/
+
+
+.body_contato nav ul li a {
+  color: #fff;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+
+  font-weight: 400;
+}
+.body_contato a:hover {
+  color: #c9c8c4;
+  transition: 0.3s;
+}
+
+.body_contato header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 5em;
+  width: 10%;
+  height: 2%;
+}
+.body_contato nav {
+  justify-content: center;
+  align-items: center;
+  margin-top: -1%;
+  margin-bottom: 5em;
+  margin-left: 45%;
+}
+.body_contato nav ul li {
+  width: 100%;
+
+  display: inline;
+  align-items: right;
+  margin-left: 5%;
+
+  font-family: "Raleway", sans-serif;
+}
+
+
+
+.body_contato {
+  background-color: #2d2c2e;
+  width: 100%;
+}
+.body_contato section {
+  width: 100%;
+  margin-bottom: 3em;
+}
+/*
+.body_contato section img {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 300px;}
+*/
+.content-items a:hover {
+  color: #fff;
+}
+/*
+.body-contato header {
+  margin-bottom: 5em;
+}
+*/
+.body_contato article {
+  margin-top: 1em;
+  float: left;
+  margin-right: -2em;
+}
+.body_contato aside {
+  margin-top: 2em;
+  float: left;
+}
+.body_contato h1 {
+  font-family: "Raleway", sans-serif;
+  color: #c9c8c4;
+  font-size: 50px;
+}
+
+.animated-tex {
+  
+  display: inline-block;
+  animation: slideIn 1s ease-in-out forwards;
+  font-family: "Raleway", sans-serif;
+  font-size: 300%;
+  margin-bottom: 1em;
+  background: linear-gradient(to right, #fff, #507494);
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.caixa__login {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  width: 800px;
+  padding: 40px;
+  transform: translate(-70%, -50%);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.caixa__login .caixa__login-input {
+  position: relative;
+}
+/*texto do botão*/
+
+.caixa__login .caixa__login-input input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1.5px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.caixa__login .caixa__login-input label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px 0;
+  font-size: 16px;
+  color: white;
+}
+
+.caixa__login .caixa__login-input input:focus ~ label,
+.caixa__login .caixa__login-input input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.caixa__login form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #dbd9f5;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+/*cores do botão*/
+
+.caixa__login a:hover {
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #f7f3f3, 0 0 25px #d17073, 0 0 50px #dcd5d5,
+    0 0 100px #507494;
+}
+
+.caixa__login a span {
+  position: absolute;
+  display: block;
+}
+
+@keyframes animacaoBotao1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.caixa__login a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #ba4347);
+  animation: animacaoBotao2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes animacaoBotao2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.caixa__login a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #8b80f9);
+  animation: animacaoBotao3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animacaoBotao3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.caixa__login a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #ba4347);
+  animation: animacaoBotao4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+/*@keyframes é utilizado para fazer animações no css*/
+
+@keyframes animacaoBotao4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.icon {
+  height: 800px;
+  padding: 50px 500px 20px 700px;
+  margin-top: 80px;
+  float: right;
+}
+.lista {
+  position: absolute;
+  top: 15%;
+  right: 70px;
+
+  /*deixar do lado direito*/
+
+  transform: translateY(5%);
+  transform: translateX(-20%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lista li {
+  list-style: none;
+}
+
+.lista li a {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+}
+
+
+/*ste destinos*/
+
+.bdestinos {
+  background-color: #2d2c2e;
+}
+
+.kyoto {
+  color: #fcd7e8;
+  text-align: center;
+  font-weight: 100%;
+  font-size: 5em;
+
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+/*aqui começa a animação link*/
+
+.button {
+ 
+  margin-left: 30em;
+  margin-bottom: 2em;
+  text-align: justify;
+  position: relative;
+  display: flex;
+  align-items: right;
+  background: none;
+  border: none;
+  padding: 12px 18px;
+ 
+}
+.button a{
+  color: #dbd9f5;
+  text-decoration-line: none;
+  font-family:"Raleway", sans-serif;
+}
+.button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  translate: calc(100% + 4px) -50%;
+  width: 60px;
+  height:60px;
+  background: #ba4347;
+  border-radius: 50px;
+  transition: translate 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2),
+    width 0.25s cubic-bezier(0, 0, 0.5, 2);
+}
+.button:hover::before {
+  width: 100%;
+  translate: -18px -50%;
+  transition: translate 0.25s cubic-bezier(0, 0, 0.5, 2),
+    width 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2);
+}
+.button i {
+  margin-left: 5px;
+  transition: translate 0.25s 0.4s cubic-bezier(0, 0, 0.5, 2);
+}
+.button:hover i {
+  translate: 3px 0;
+}
+
+
+
+
+
+.tokyo {
+  color: #507494;
+  text-align: center;
+  font-weight: 100%;
+  font-size: 5em;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+
+.bdestinos section {
+  margin-bottom: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bdestinos article {
+  color: #fff;
+  float: left;
+  margin-left: 10%;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.hiroshima {
+  color: #ba4347;
+  text-align: center;
+  font-weight: 100%;
+  font-size: 5em;
+  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bdestinos header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 5em;
+  width: 10%;
+  height: 2%;
+}
+.bdestinos nav {
+  justify-content: center;
+  align-items: center;
+  margin-top: -1%;
+  margin-bottom: 5em;
+  margin-left: 45%;
+}
+.bdestinos nav ul li {
+  width: 100%;
+
+  display: inline;
+  align-items: right;
+  margin-left: 5%;
+
+  font-family: "Raleway", sans-serif;
+}
+
+.bdestinos nav ul li a {
+  color: #ba4347;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.bdestinos ul li a:hover {
+  color: #c9c8c4;
+  transition: 0.3s;
+}
+
+.bdestinos p {
+  text-align: center;
+  color: #fff;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+}
+.bdestinos section img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bdestinos article p a {
+  color: #ba4347;
+}
+.bdestinos article p a:hover {
+  color: #c9c8c4;
+  transition: 0.3s;
+}
+.bdestinos footer {
+  color: #ba4347;
+  float: left;
+  margin-top: 2em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.slideshowcontainer {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.slideshowcontainer2 {
+  max-width: 1000px;
+  position: relative;
+  margin-left: 30px;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bdestinos nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  .bdestinos nav {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .bdestinos nav li a {
+    display: block;
+  }
+  .bdestinos h1 {
+    margin-top: -2%;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  nav {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  nav li a {
+    display: block;
+  }
+  header {
+    margin-bottom: 3em;
+  }
+  .body_blog article {
+    width: 420px;
+    color: #fff;
+    float: left;
+  }
+  .body_blog h1 {
+    text-align: left;
+    font-size: 3em;
+    margin-left: -3em;
+  }
+
+  .body_blog article p {
+    font-size: 0.1;
+    
+  }
+
+  .body_blog article p {
+    font-size: small;
+    padding-top: 1px;
+    text-align: center;
+    
+  }
+
+  .body_blog section img {
+    width: 1em;
+    height: 1em;
+    visibility: hidden;
+  }
+  .body_blog section {
+    width: 420px;
+    float: left;
+  }
+  .bhome header {
+    margin-bottom: 7em;
+  }
+  .bhome header img {
+    width: 70%;
+  }
+}

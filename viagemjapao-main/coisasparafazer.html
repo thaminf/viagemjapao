@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/style.css">
+    <title>COISAS PARA FAZER</title>
+    
+    
+</head>
+<body class="body_coisasparafazer">
+    <header>
+        <a href="index.html"><img src="img/vector.png"></a>
+        
+    </header>
+    <nav>
+        <ul>
+            
+            <li><a href="destino.html">DESTINOS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+    <h1>COISAS PARA FAZER</h1>
+    <article>
+        
+        <h2>Uma lista curta de lugares inesquecíveis para visitar!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda debitis at.</p>
+        <h3>☆Lorem ipsum dolor sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quo animi recusandae minima enim iusto adipisci unde perferendis, a, laborum ducimus, repellendus harum laboriosam vitae dolor. Molestiae accusamus voluptatem quod!</p>
+        <h3>☆Lorem ipsum dolor sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quo animi recusandae minima enim iusto adipisci unde perferendis, a, laborum ducimus, repellendus harum laboriosam vitae dolor. Molestiae accusamus voluptatem quod!</p>
+        <h3>☆Lorem ipsum dolor sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quo animi recusandae minima enim iusto adipisci unde perferendis, a, laborum ducimus, repellendus harum laboriosam vitae dolor. Molestiae accusamus voluptatem quod!</p>
+      
+   
+    </article>
+    
+        <section>
+            <div class="slideshowcontainer">
+      
+            <div class="mySlides fade">
+              
+              <img src="img/japao5.jpg" style="width:100%">
+             
+            </div>
+          
+            <div class="mySlides fade">
+             
+              <img src="img/japao6.jpg" style="width:100%">
+              
+            </div>
+          
+            <div class="mySlides fade">
+              
+              <img src="img/japao3.jpg" style="width:100%">
+                
+            </div>
+            <div class="mySlides fade">
+                
+                <img src="img/japao4.jpg" style="width:100%">
+               
+              </div>
+      
+              </div>
+              <img src="img/fazerkyoto.jpg" style="width:100%">
+
+    </section>
+    <section>
+       
+          
+          <img src="img/fazerhiroshima.jpg" style="width:100%">
+     
+            
+            <img src="img/fazertokyo.jpg" style="width:100%">
+        
+    
+
+</section>
+    <script>
+        let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KYOTO</title>
+</head>
+<body class="bdestinos">
+    <header>
+      <a href="index.html"><img src="img/vector.png"></a>
+    </header>
+    <nav>
+      <ul>
+        
+        <li><a href="destino.html">DESTINOS</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+      </ul>
+  </nav>
+    <h1 class="kyoto">KYOTO</h1>
+    <section>
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          
+          <img src="img/kyoto.jpg" style="width:100%">
+         
+        </div>
+      
+        <div class="mySlides fade">
+         
+          <img src="img/kyoto2.jpg" style="width:100%">
+          
+        </div>
+      
+        <div class="mySlides fade">
+          
+          <img src="img/kyoto3.jpg" style="width:100%">
+            
+        </div>
+        <div class="mySlides fade">
+            
+            <img src="img/kyoto4.jpg" style="width:100%">
+           
+          </div>
+        </div>
+    </section>
+
+    <article>
+        
+        
+      <p>Lorem ipsum dolor sit amet consectetur adipisilit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing eat asperiores! Id tempora blanditiis pariatur dolore animi sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
+      
+      <p>Lorem ipsum dolor sit amet consectetur ades! Id tempora blanditiis pariatur dolore animi sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adium error aliquam, quaerat asperiores! Id tempora blanditiis pariatur dolore animi sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda debitis at, vel ut nisi, totam autem consequatur dolorum error</p>
+    </article>
+
+
+    <aside class="aside_kyoto">
+
+      <button class="button"><a href="tokyo.html">✈ CONHEÇA TOKYO <i class="ri-arrow-right-line"></i></a></button>
+      <button class="button"><a href="hiroshima.html">✈ CONHEÇA HIROSHIMA <i class="ri-arrow-right-line"></i></a></button>
+     
+    </aside>
+   
+  
+
+  
+  
+
+  <script>
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}</script>
+
+
+<footer><small>&copy; COPYRIGHT - TODOS OS DIREITOS RESERVADOS</small></footer>
+</body>
+</html>
